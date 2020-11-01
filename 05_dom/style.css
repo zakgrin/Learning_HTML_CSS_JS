@@ -1,0 +1,29 @@
+body {
+    background: #f1f1f1;
+}
+
+.tool {
+    background: white;
+    width: 350px;
+    height: 150px;
+}
+
+#website_title {
+    background: #2c3240;
+    color: white;
+}
+
+#hex_title {
+    background: greenyellow;
+}
+
+#prop_title {
+    background: greenyellow;
+}
+
+.content_title {
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+

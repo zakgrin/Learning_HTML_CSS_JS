@@ -1,0 +1,22 @@
+body {
+    background: #f1f1f1;
+}
+
+#website_title {
+    background: #2c3240;
+    color: white;
+}
+
+.tool {
+    background: white;
+    width: 350px;
+    height: 150px;
+}
+
+.tool_title {
+    height: 30px; 
+    text-align: center; 
+    padding-top: 10px;
+    color: white;
+    background: #3d8929;
+}

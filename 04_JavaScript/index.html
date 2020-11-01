@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<!--all style values are inline CSS style-->
+    <head>
+        <link href="style.css" rel="stylesheet"/>
+        <!--JavaScript Code-->
+        <script>
+            console.log("Hello World!") 
+            function previous() {
+                console.log("previous tool!")
+            }
+            function next() {
+                console.log("next tool!")
+            }
+        </script>
+        <title>HTML & CSS</title>
+    </head>
+
+    <body dir="ltr"> <!--"dir" is used to control the direction of text-->
+        <div id="website_title">
+            <h2>
+                Important Tools for HTML, CSS, JS
+            </h2>
+        </div>
+        <div class="tool">
+            <a href="https://www.color-hex.com/">
+                <p id="tool_title" class="content_title">CSS Hex Colors</p>
+                <p dir=rtl>Details</p>
+            </a>
+            <a href="https://www.w3schools.com/cssref/">
+                <p id="tool_title" class="content_title">CSS Properties</p>
+                <p dir=rtl>Details</p>
+            </a>
+        </div>
+        
+        <div>
+            <button onclick="previous()">Previous</button>
+            <button onclick="next()">Next</button>
+        </div>
+    </body>
+</html>

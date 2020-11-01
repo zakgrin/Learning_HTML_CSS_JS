@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<!--all style values are inline CSS style-->
+    <head>
+        <link href="style.css" rel="stylesheet"/>
+        <!--JavaScript Code-->
+        <script>
+            console.log("Hello World!") 
+            function previous() {
+                console.log("previous!");
+                document.getElementById("hex_title").style.background="red";
+                document.getElementById("hex_title").innerHTML="CSS Properties"
+            }
+            function next() {
+                console.log("next!");
+                document.getElementById("hex_title").style.background="green";
+                document.getElementById("hex_title").innerHTML="CSS Hex Colors"
+            }
+        </script>
+        <title>HTML & CSS</title>
+    </head>
+
+    <body dir="ltr"> <!--"dir" is used to control the direction of text-->
+        <div id="website_title">
+            <h2>
+                Important Tools for HTML, CSS, JS
+            </h2>
+        </div>
+        <div class="tool">
+            <a href="https://www.color-hex.com/">
+                <p id="hex_title" class="content_title">CSS Hex Colors</p>
+                <p dir=rtl>Details</p>
+            </a>
+            <a href="https://www.w3schools.com/cssref/">
+                <p id="prop_title" class="content_title">CSS Properties</p>
+                <p dir=rtl>Details</p>
+            </a>
+        </div>
+        <div>
+            <button onclick="previous()">Previous</button>
+            <button onclick="next()">Next</button>
+        </div>
+    </body>
+</html>
